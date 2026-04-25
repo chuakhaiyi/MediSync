@@ -8,7 +8,7 @@
 
 > **Watch our product pitch to see MediSync+ in action.**
 
-### ▶️ [Click here to watch the MediSync+ Pitch Video](YOUR_GOOGLE_DRIVE_LINK_HERE)
+### ▶️ [Click here to watch the MediSync+ Pitch Video](https://drive.google.com/file/d/1cJvjyCZW_G0R7a7SfHm7cgSRqoGJSE1S/view?usp=sharing)
 
 ---
 
