@@ -1,14 +1,14 @@
-# MediSync — AI-Powered Post-Discharge Patient Care
+# MediSync+ — AI-Powered Post-Discharge Patient Care
 
-> **MediSync** is an Android application designed to support recently discharged hospital patients in managing their recovery at home. It uses a multi-agent AI architecture to monitor medications, vitals, symptoms, and appointments — automatically triaging risk and alerting care teams when intervention is needed.
+> **MediSync+** is an Android application designed to support recently discharged hospital patients in managing their recovery at home. It uses a multi-agent AI architecture to monitor medications, vitals, symptoms, and appointments — automatically triaging risk and alerting care teams when intervention is needed.
 
 ---
 
 ## 🎬 Pitch Video
 
-> **Watch our product pitch to see MediSync in action.**
+> **Watch our product pitch to see MediSync+ in action.**
 
-### ▶️ [Click here to watch the MediSync Pitch Video](YOUR_GOOGLE_DRIVE_LINK_HERE)
+### ▶️ [Click here to watch the MediSync+ Pitch Video](YOUR_GOOGLE_DRIVE_LINK_HERE)
 
 ---
 
@@ -32,7 +32,7 @@
 
 ## Overview
 
-MediSync targets high-risk post-discharge patients — specifically those with conditions like Congestive Heart Failure (CHF) — who require continuous monitoring after leaving hospital. The app acts as a virtual care companion, combining a local Room database with an LLM-powered backend to proactively identify deterioration before it becomes an emergency.
+MediSync+ targets high-risk post-discharge patients — specifically those with conditions like Congestive Heart Failure (CHF) — who require continuous monitoring after leaving hospital. The app acts as a virtual care companion, combining a local Room database with an LLM-powered backend to proactively identify deterioration before it becomes an emergency.
 
 The app is designed around a single patient profile (`P001`, seeded at launch) and connects to a configurable LLM API endpoint (Anthropic-compatible or the bundled `ilmu.ai` service) to run clinical reasoning agents.
 
@@ -58,7 +58,7 @@ The app is designed around a single patient profile (`P001`, seeded at launch) a
 
 ## AI Agent Architecture
 
-MediSync uses a **multi-agent orchestration** pattern. The `AgentOrchestrator` is the central coordinator, delegating tasks to specialist agents based on the clinical context.
+MediSync+ uses a **multi-agent orchestration** pattern. The `AgentOrchestrator` is the central coordinator, delegating tasks to specialist agents based on the clinical context.
 
 ```
 AgentOrchestrator
@@ -165,7 +165,7 @@ MediSync/
 │   ├── proguard-rules.pro
 │   └── src/main/
 │       ├── AndroidManifest.xml
-│       └── java/com/medisyncplus/
+│       └── java/com/MediSyncplus/
 │           ├── MainActivity.kt
 │           ├── ai/
 │           │   ├── AgentOrchestrator.kt        # Central agent coordinator
@@ -288,7 +288,7 @@ The app is pre-configured to use `ilmu.ai` (a Malaysian-hosted, Anthropic-compat
 
 ## Notification System
 
-MediSync uses four notification channels, all created at app startup:
+MediSync+ uses four notification channels, all created at app startup:
 
 | Channel ID | Name | Importance | Purpose |
 |---|---|---|---|
